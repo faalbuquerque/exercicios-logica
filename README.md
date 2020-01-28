@@ -1,6 +1,5 @@
 # Exercícios de lógica  
- ![Ah](https://media.giphy.com/media/VD6b0RgwT5sEo/giphy-downsized.gif) 
-
+ 
 ### 1 - Faça um algoritmo que calcule o IMC seguindo a tabela abaixo:
     IMC:	             Resultado:
     Menos do que 18,5	 Abaixo do peso
@@ -79,3 +78,4 @@ Decimal | Binário
     4x(4-1)x(4-2)x(4-3) = 4x3x2x1 = 24
 
 
+ ![Ah](https://media.giphy.com/media/VD6b0RgwT5sEo/giphy.gif)
