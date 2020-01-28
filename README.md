@@ -1,4 +1,4 @@
-# Exercícios de lógica  
+# Exercícios de lógica  ![Ah](https://raw.githubusercontent.com/faalbuquerque/exercicios-logica/master/img/wonder_40x40.gif?token=AIT77GTB6X2QE46B3QHDSMK6GCZYE)
  
 ### 1 - Faça um algoritmo que calcule o IMC seguindo a tabela abaixo:
     IMC:	             Resultado:
@@ -76,6 +76,3 @@ Decimal | Binário
     
     Ex: fat(4) = 24;   
     4x(4-1)x(4-2)x(4-3) = 4x3x2x1 = 24
-
-
- ![Ah](https://media.giphy.com/media/VD6b0RgwT5sEo/giphy.gif)
