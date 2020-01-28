@@ -1,5 +1,5 @@
-# Exercicios de lógica  
- ![Ah](https://media.giphy.com/media/3Wv2OI64PCRr47o0D4/200w_d.gif) 
+# Exercícios de lógica  
+ ![Ah](https://media.giphy.com/media/VD6b0RgwT5sEo/giphy-downsized.gif) 
 
 ### 1 - Faça um algoritmo que calcule o IMC seguindo a tabela abaixo:
     IMC:	             Resultado:
