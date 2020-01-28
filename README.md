@@ -76,3 +76,6 @@ Decimal | Binário
     
     Ex: fat(4) = 24;   
     4x(4-1)x(4-2)x(4-3) = 4x3x2x1 = 24
+
+##### Exercicios criados por [xitarps.](https://github.com/xitarps)
+

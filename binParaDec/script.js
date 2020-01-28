@@ -1,11 +1,10 @@
 window.onload = ()=>{
-}
-
     let bin = prompt("Digite um numero binário: ");
     console.log('Numero digitado: ', bin);
 
     let numArray = bin.split("");
     console.log( 'Numero em array: ', numArray);
+}
 
     let currNum;
     let beforeInit = 0;
@@ -24,19 +23,4 @@ window.onload = ()=>{
             
         }
 
-        //criar array que guarda os numeros anteriores!!!!!
-
-        //let calcCurr = (calcAnt * 2) + currNum;
-        //console.log(`(Calc anterior: ${calcAnt} x 2) + numero corrente : ${currNum} = ${calcCurr}`);
-       
-       
-
-    //let calc = ((currNum - 1) * 2) + (currNum);
-
-    //let teste = (beforeNum * 0) + currNum;
-    //console.log(teste);
-
-   //for(i=0; i < numArray.length; i++ ){
-   // beforeNum = parseInt(numArray[-i]);
-   // console.log('numero anterior', beforeNum);
-   // }
+    
