@@ -1,19 +1,14 @@
 window.onload = ()=>{
 
-    let oneInput = Number(prompt("Digite o primeiro numero:"));
-    let twoInput = Number(prompt("Digite o segundo numero:"));
+    let primeiroNumero = Number(prompt("Digite o primeiro numero:"));
+    let segundoNumero = Number(prompt("Digite o segundo numero:"));
+    let resultado = mult(primeiroNumero, segundoNumero);
 
-    let result = mult(oneInput, twoInput);
-
-    alert(`${oneInput} x ${twoInput} = ${result}`);
+    alert(`${primeiroNumero} x ${segundoNumero} = ${resultado}`);
 }
 
-
-function mult(oneNum, twoNum){
-
+function mult(num1, num2){
     let total = 0;
- 
-    for(i = 1; i <= twoNum; i++) total =  total + oneNum;
-
+    for(i = 1; i <= num2; i++) total =  total + num1;
     return total;
 }

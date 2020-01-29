@@ -1,15 +1,10 @@
 window.onload = ()=>{
-
   let num = prompt('Digite um número:');
-  let result = oddsOrEven(num);
+  let result = parOuImpar(num);
 
   alert(`O número ${num} é ${result}.`);
-
 } 
 
-
-function oddsOrEven(num){
-
-  return num % 2 ? 'impar' : 'par';
-
+function parOuImpar(num){
+  return num % 2 ? 'Impar' : 'Par';
 }
