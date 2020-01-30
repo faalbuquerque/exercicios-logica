@@ -1,42 +1,33 @@
-//Arumando
 
 window.onload = function () {
+}
 
-    let capitalInicial = prompt("Digite o capital inicial");
+    let  capitalInicial = prompt("Digite o capital inicial");
     let periodo = prompt("Digite o periodo em meses");
-    let juros = prompt("Digite o juros ao mes");
+    let jurosMes = prompt("Digite o juros ao mes");
 
-    jurosMesDec(juros);
-    
-    let mont = montante (capitalInicial, periodo);
-
-    alert(`O valor do montante é: ${mont}`);
-   
-}
-   
-function jurosMesDec(numJuros){
-    return numJuros/100;
-}
-
-function montanteCalc(montante){
-    return montante = 1 + jurosMesDec();
-}
-
-function montante (capitalInicial, periodo ) {
-    let montTotal = (capitalInicial * elevado(montanteCalc(), periodo)).toFixed(2);
-    return montTotal;
-    console.log(montTotal);
-}
-
-function elevado(numero, elev) {
-
-    let potencia = 1;
-
-    for(i = 0; i < elev; i++){  
-        potencia = potencia * numero;
+    let jurosMesDec = () => {
+        return jurosMes/100;
     }
-    return potencia
-}
+
+    let montanteCalc = () => {
+        return montanteCalc = 1 + jurosMesDec();
+    }
+
+    montante();
+
+    function montante (montanteTotal) {
+        montanteTotal = (capitalInicial * elevado(montanteCalc(), periodo)).toFixed(2);
+        return document.write("O Valor do Montante é " +  montanteTotal);
+    }
+
+    function elevado(numero, elev) {
+        let potencia = 1;
+        for(i = 0; i < elev; i++){  
+        potencia = potencia * numero;
+        }
+        return potencia
+    }
 
 
 /* antes de refatorar
