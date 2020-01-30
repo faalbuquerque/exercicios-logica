@@ -1,10 +1,8 @@
 window.onload = ()=>{ 
 
     let numero = prompt(" Digite um numero: ");
-
-    let tabuada = tab(numero);
+    tab(numero);
    
-    alert(tabuada);
 }
 
 function tab(num){

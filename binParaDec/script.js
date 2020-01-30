@@ -1,4 +1,7 @@
+//arrumando!
+
 window.onload = ()=>{
+
 }
 
     let bin = prompt("Digite um numero binário: ");
