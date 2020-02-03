@@ -76,6 +76,26 @@ Decimal | Binário
     
     Ex: fat(4) = 24;   
     4x(4-1)x(4-2)x(4-3) = 4x3x2x1 = 24
+<hr>
 
-##### Exercicios criados por [xitarps.](https://github.com/xitarps)
+### Exercicios resolvidos:
 
+[Binario para Decimal](https://faalbuquerque.github.io/exercicios-logica/binParaDec)
+    
+[Calculo de potencia](https://faalbuquerque.github.io/exercicios-logica/calcPotencia)
+
+[Calculo de IMC](https://faalbuquerque.github.io/exercicios-logica/imc)
+
+[Calculo de Juros composto](https://faalbuquerque.github.io/exercicios-logica/jurosComposto)
+
+[Calculo de juros simples](https://faalbuquerque.github.io/exercicios-logica/jurosSimples)
+
+[Multiplicacao](https://faalbuquerque.github.io/exercicios-logica/multiplicacao)
+
+[Verificar se numero é par ou impar](https://faalbuquerque.github.io/exercicios-logica/parOuImpar)
+
+[Calcular tabuada de um numero](https://faalbuquerque.github.io/exercicios-logica/tabuadaMult)
+
+<hr>
+
+##### Lista de exercicios criada por [xitarps.](https://github.com/xitarps)
