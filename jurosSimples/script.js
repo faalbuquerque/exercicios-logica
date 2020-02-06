@@ -1,21 +1,21 @@
-window.onload =()=>{
 
-    let capInit = prompt('Qual o seu capital inicial?');
-    let interest = prompt('Qual a taxa de juros?');
-    let time = prompt("Qual o periodo?");
-    let calc = (simpleInterest(capInit, interest, time));
+window.onload = ()=>{
+    let cap = Number(prompt("Digite o capital inicial: "));
+    let jur = prompt("Digite os juros: ");
+    let meses = prompt("Digite a quantidade de meses: ");
+   
+    let jurResult = jurosSimples(cap, jur, meses);
 
-    alert(`O Valor será de: ${calc}`);
+    alert(`O valor será de : ${jurResult}`);
 }
 
-function simpleInterest(capInit, interest, time){
+function jurosSimples(capInicial, juros, periodo){
+ 
+    juros = capInicial * (juros/100) * periodo;
+    
+    let montante = (juros + capInicial);
 
-    let taxaJuros = interest/100;
-
-    interest = capInit * taxaJuros * time;
-
-    let amount = capInit + interest;
-
-    return amount; //toFixed nao esta funcionando
+    return montante.toFixed(2);
 }
+
 
