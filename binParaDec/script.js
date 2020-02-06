@@ -1,45 +1,17 @@
-//arrumando!
-
 window.onload = ()=>{
-
+    let num = prompt("Digite um número binario");
+    let decNum = binParaDec(num);
+    alert(`O número: ${num} em decimal é : ${decNum}`);
 }
 
-    let bin = prompt("Digite um numero binário: ");
-    console.log('Numero digitado: ', bin);
+function binParaDec(num) {
+    let potencia = 0;
+    let numString = num.toString();
+    let calcDec = 0;
 
-    let numArray = bin.split("");
-    console.log( 'Numero em array: ', numArray);
-
-    let currNum;
-    let beforeInit = 0;
-    let calcAnt = [];
-    
-
-        for( i=0; i < numArray.length; i++ ){
-
-            currNum = parseInt(numArray[i]);
-            console.log('Numeros em int: ', currNum);
-
-            calcAnt = (beforeInit * 2) + currNum;
-            console.log('calculo anterior: ', calcAnt);
-
-            console.log(`(Numero anterior comeca em zero: ${beforeInit} x 2) + numero corrente: ${currNum} = ${calcAnt} `);
-            
-        }
-
-        //criar array que guarda os numeros anteriores!!!!!
-
-        //let calcCurr = (calcAnt * 2) + currNum;
-        //console.log(`(Calc anterior: ${calcAnt} x 2) + numero corrente : ${currNum} = ${calcCurr}`);
-       
-       
-
-    //let calc = ((currNum - 1) * 2) + (currNum);
-
-    //let teste = (beforeNum * 0) + currNum;
-    //console.log(teste);
-
-   //for(i=0; i < numArray.length; i++ ){
-   // beforeNum = parseInt(numArray[-i]);
-   // console.log('numero anterior', beforeNum);
-   // }
+    for(i = numString.length -1; i>=0; i--){
+        calcDec = calcDec + numString[i] * (2 ** potencia);
+        potencia++;
+    }
+    return calcDec;
+}
