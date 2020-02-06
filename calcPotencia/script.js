@@ -1,7 +1,7 @@
 window.onload = ()=>{
 
-    let a = getNumber("entre com um numero");
-    let b = getNumber("elevado a quanto?");
+    let a = getNumber("Digite um numero: ");
+    let b = getNumber("Elevado a quanto? ");
 
     mostra(resultado(a,b,elevado(a,b)));
 }
@@ -12,7 +12,7 @@ function elevado(numero, elev){
 }
 
 function resultado(numero,potencia,resultado){
-    let texto =`${numero} elevado a ${potencia} é igual a ${resultado}`;
+    let texto =`O número ${numero} elevado a ${potencia} é igual a ${resultado} .`;
     return texto;
 }
 
