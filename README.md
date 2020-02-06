@@ -80,22 +80,29 @@ Decimal | Binário
 
 ### Exercicios resolvidos:
 
-[Binario para Decimal](https://faalbuquerque.github.io/exercicios-logica/binParaDec)
-    
-[Calculo de potencia](https://faalbuquerque.github.io/exercicios-logica/calcPotencia)
+1 - [Calculo de IMC](https://faalbuquerque.github.io/exercicios-logica/imc)
 
-[Calculo de IMC](https://faalbuquerque.github.io/exercicios-logica/imc)
+2 - [Calcular tabuada de um número](https://faalbuquerque.github.io/exercicios-logica/tabuadaMult)
 
-[Calculo de Juros composto](https://faalbuquerque.github.io/exercicios-logica/jurosComposto)
+3 - [Verificar se número é par ou impar](https://faalbuquerque.github.io/exercicios-logica/parOuImpar)
 
-[Calculo de juros simples](https://faalbuquerque.github.io/exercicios-logica/jurosSimples)
+4 - [Calculo de juros simples](https://faalbuquerque.github.io/exercicios-logica/jurosSimples)  ---- Preciso arrumar ----
 
-[Multiplicacao](https://faalbuquerque.github.io/exercicios-logica/multiplicacao)
+5 - [Calculo de potencia](https://faalbuquerque.github.io/exercicios-logica/calcPotencia)
 
-[Verificar se numero é par ou impar](https://faalbuquerque.github.io/exercicios-logica/parOuImpar)
+6 - [Calculo de Juros composto](https://faalbuquerque.github.io/exercicios-logica/jurosComposto)
 
-[Calcular tabuada de um numero](https://faalbuquerque.github.io/exercicios-logica/tabuadaMult)
+7 - ---- Para resolver ----
 
+8 - [Multiplicacao](https://faalbuquerque.github.io/exercicios-logica/multiplicacao)
+
+9 - [Decimal para binário](https://faalbuquerque.github.io/exercicios-logica/decParaBin/)
+
+10 - [Binário para Decimal](https://faalbuquerque.github.io/exercicios-logica/binParaDec)
+
+11 - ---- Para resolver ----
+
+12 - ---- Para resolver ----
 <hr>
 
 ##### Lista de exercicios criada por [xitarps.](https://github.com/xitarps)
