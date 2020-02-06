@@ -86,7 +86,7 @@ Decimal | Binário
 
 3 - [Verificar se número é par ou impar](https://faalbuquerque.github.io/exercicios-logica/parOuImpar)
 
-4 - [Calculo de juros simples](https://faalbuquerque.github.io/exercicios-logica/jurosSimples)  ---- Preciso arrumar ----
+4 - [Calculo de juros simples](https://faalbuquerque.github.io/exercicios-logica/jurosSimples)
 
 5 - [Calculo de potencia](https://faalbuquerque.github.io/exercicios-logica/calcPotencia)
 
