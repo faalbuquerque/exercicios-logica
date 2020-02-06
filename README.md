@@ -92,7 +92,7 @@ Decimal | Binário
 
 6 - [Calculo de Juros composto](https://faalbuquerque.github.io/exercicios-logica/jurosComposto)
 
-7 - ---- Para resolver ----
+7 - [Contar apertos de mãos](https://faalbuquerque.github.io/exercicios-logica/apertosDeMao)
 
 8 - [Multiplicacao](https://faalbuquerque.github.io/exercicios-logica/multiplicacao)
 
