@@ -10,4 +10,4 @@ let mumR2 = numR + numR + num2;
 
 num2 = numR;
 
-numR = mumR2;
+numR = mumR2 
