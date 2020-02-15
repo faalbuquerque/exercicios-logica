@@ -70,7 +70,7 @@ Decimal | Binário
 
 ### 11 - A série de fibonacci pode ser representada por: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 ... Faça um algoritmo que calcule um numero x da série: 
 
-    ex: fib(6) = 5
+    ex: fib(6) = 8
 
 ### 12 - Sabendo que um número fatorial x! é xx(x-1)x(x-2)x(x-3)...x1 Faça um algoritmo que calcule o fatorial de um numero: 
     
