@@ -1,8 +1,11 @@
 window.onload = () =>{
-    let numero = prompt('Digite um número:');
+    let numero = Number(prompt('Digite um número:'));
+    
     let resultado = fib(numero);
     alert(`O resultado é: ${resultado}`);
 }
+
+
 
 
 function fib(numero){
@@ -21,7 +24,13 @@ function fib(numero){
     return resultado;
 }
 
+    //   for (i = 0, a = 0, b = 1; i < numero; b+=a, a=b-a,  i++) {console.log(a)}
 
+    //   for ([configs inicial]; [condição enquanto]; [mutação por ciclo]){
+    //     declaração
+    //   }
 
-
-
+    //   function fib(x){
+    //      return fib(x-1)+fib(x-2)
+    //   }
+    
