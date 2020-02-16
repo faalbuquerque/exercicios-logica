@@ -33,4 +33,3 @@ function fib(numero){
     //   function fib(x){
     //      return fib(x-1)+fib(x-2)
     //   }
-    
