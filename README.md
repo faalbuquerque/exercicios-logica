@@ -100,7 +100,7 @@ Decimal | Binário
 
 10 - [Binário para Decimal](https://faalbuquerque.github.io/exercicios-logica/binParaDec)
 
-11 - ---- Para resolver ----
+11 - [Cálculo de Fibonacci](https://faalbuquerque.github.io/exercicios-logica/fibonacci)
 
 12 - ---- Para resolver ----
 <hr>

@@ -1,5 +1,4 @@
 window.onload = () =>{
-
     let numero = prompt('digite um numero');
     let resultado = fib(numero);
     alert(`O resultado é: ${resultado}`);
