@@ -1,20 +1,28 @@
+window.onload = () =>{
 
-let numAnterior = 0;
-
-let numAtual = 1;
-
-let resultado;
-
-
-let teste = prompt('digite um numero');
-
-for(i=1; i<teste; i++){
-    
-    resultado = numAtual + numAnterior;
-    numAnterior = numAtual;
-    numAtual = resultado;
-    
-    
+    let numero = prompt('digite um numero');
+    let resultado = fib(numero);
+    alert(`O resultado é: ${resultado}`);
 }
 
-console.log(resultado);
+
+function fib(numero){
+
+    let numAnterior = 0;
+    let numAtual = 1;
+    let resultado;
+
+    for(i=1; i<numero; i++){
+    
+        resultado = numAtual + numAnterior;
+        numAnterior = numAtual;
+        numAtual = resultado;
+         
+    }
+    return resultado;
+}
+
+
+
+
+
