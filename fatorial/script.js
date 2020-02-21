@@ -1,18 +1,27 @@
-/*
-12 - Sabendo que um número fatorial x! é x*(x-1)*(x-2)*(x-3)...x1 Faça um algoritmo que calcule o fatorial de um numero: 
-    
-Ex: fat(4) = 24;   
-4x(4-1)x(4-2)x(4-3) = 4x3x2x1 = 24
-*/
-
-/*
 window.onload = () =>{
-    let numero = prompt('Digite um numero para saber seu fatorial: ');
-    let resultado = fatorial(numero);
-    let msg = alert(`O fatorial de ${numero} é: ${resultado}`);
+    let num = prompt('Digite um numero para saber seu fatorial: ');
+    msg(num, fatorial(num));
 }
-*/
 
+function fatorial(num){
+
+    let calc = 1;
+    let result;
+
+    for(i=1; i<num; i++){
+        let sub = num - i;
+        calc = calc * sub;
+        result = calc * num;  
+    }
+    return result;
+}
+
+function msg(numero, result){
+    alert(`O Fatorial de ${numero} é : ${result}`);
+}
+
+
+/* logica resolvida
 let num = 10;
 let calc = 1;
 
@@ -30,9 +39,6 @@ for(i=1; i<num; i++){
     console.log('multiplicacao: ',result);
     
 }
-
-
-
-
+*/
 
 
