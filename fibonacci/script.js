@@ -5,9 +5,6 @@ window.onload = () =>{
     alert(`O resultado é: ${resultado}`);
 }
 
-
-
-
 function fib(numero){
 
     let numAnterior = 0;
