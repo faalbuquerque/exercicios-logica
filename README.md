@@ -102,7 +102,7 @@ Decimal | Binário
 
 11 - [Cálculo de Fibonacci](https://faalbuquerque.github.io/exercicios-logica/fibonacci)
 
-12 - ---- Para resolver ----
+12 - [Cálculo de Fatorial](https://faalbuquerque.github.io/exercicios-logica/fatorial)
 <hr>
 
 ##### Lista de exercicios criada por [xitarps.](https://github.com/xitarps)
