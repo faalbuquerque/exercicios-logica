@@ -17,7 +17,7 @@ function fatorial(num){
 }
 
 function msg(numero, result){
-    alert(`O Fatorial de ${numero} é : ${result}`);
+    alert(`O Fatorial de ${numero} é : ${result}.`);
 }
 
 
