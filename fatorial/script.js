@@ -1,6 +1,7 @@
 window.onload = () =>{
     let num = prompt('Digite um numero para saber seu fatorial: ');
-    msg(num, fatorial(num));
+    //msg(num, fatorial(num));
+    alert(xfib(num))
 }
 
 function fatorial(num){
@@ -19,26 +20,25 @@ function fatorial(num){
 function msg(numero, result){
     alert(`O Fatorial de ${numero} é : ${result}.`);
 }
+/*
+    Ex: fat(4) = 24;   
+    4x(4-1)x(4-2)x(4-3) = 4x3x2x1 = 24
 
 
-/* logica resolvida
-let num = 10;
-let calc = 1;
+    fat(y) = ?
 
-//fazer um for decrescente para contar do num até um 1
-for(i=1; i<num; i++){
-    console.log('valor de i: ',i);
+    Ex: fat(4) = 24; 
 
-    let sub = num - i;
-    console.log('subtracao: ',sub);
+    y*(y-1)*(y-2)*(y-3)
 
-    calc = calc * sub;
-    console.log('multiplicacao: ',calc);
+    *(y-i)
 
-    let result = calc * num;
-    console.log('multiplicacao: ',result);
-    
-}
 */
 
-
+function xfib(y){
+    let result  = y
+    for (let i = y-1; i > 0; i--) {
+        result = result*(y-i)
+    }
+    return result;
+}
