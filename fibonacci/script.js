@@ -1,8 +1,11 @@
 window.onload = () =>{
     let numero = Number(prompt('Digite um número:'));
-    
     let resultado = fib(numero);
-    alert(`O resultado é: ${resultado}`);
+    console.log(`O resultado é: ${resultado} - laço comum`);
+
+    let numeroR = Number(prompt('Digite um número:'));
+    let resultadoR = fibR(numeroR);
+    console.log(`O resultado é: ${resultadoR} - recursividade`);
 }
 
 function fib(numero){
@@ -21,12 +24,19 @@ function fib(numero){
     return resultado;
 }
 
-    //   for (i = 0, a = 0, b = 1; i < numero; b+=a, a=b-a,  i++) {console.log(a)}
+function fibR(numero){
+    if(numero == 1) return 1
+        return (fibR(numero - 1) + fibR(numero - 2))
+}
 
-    //   for ([configs inicial]; [condição enquanto]; [mutação por ciclo]){
-    //     declaração
-    //   }
 
-    //   function fib(x){
-    //      return fib(x-1)+fib(x-2)
-    //   }
+/*
+for (i = 0, a = 0, b = 1; i < numero; b+=a, a=b-a,  i++) {console.log(a)}
+
+for ([configs inicial]; [condição enquanto]; [mutação por ciclo]){
+   declaração
+ }
+ function fib(x){
+    return fib(x-1)+fib(x-2)
+ }
+*/
