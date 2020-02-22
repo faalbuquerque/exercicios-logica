@@ -1,7 +1,11 @@
 window.onload = () =>{
-    let num = prompt('Digite um numero para saber seu fatorial: ');
+    let num = Number(prompt('Digite um numero para saber seu fatorial: '));
     //msg(num, fatorial(num));
-    alert(xfib(num))
+    alert(fatF(num))
+}
+
+function msg(numero, result){
+    alert(`O Fatorial de ${numero} é : ${result}.`);
 }
 
 function fatorial(num){
@@ -17,9 +21,20 @@ function fatorial(num){
     return result;
 }
 
-function msg(numero, result){
-    alert(`O Fatorial de ${numero} é : ${result}.`);
+function fatX(y){
+    let result  = y
+    for (let i = y-1; i > 0; i--) {
+        result = result*(y-i)
+    }
+    return result;
 }
+
+
+function fatF(numero){
+    if(numero == 1) return 1;
+        return numero * fatF(numero-1);
+}
+
 /*
     Ex: fat(4) = 24;   
     4x(4-1)x(4-2)x(4-3) = 4x3x2x1 = 24
@@ -34,11 +49,3 @@ function msg(numero, result){
     *(y-i)
 
 */
-
-function xfib(y){
-    let result  = y
-    for (let i = y-1; i > 0; i--) {
-        result = result*(y-i)
-    }
-    return result;
-}
