@@ -1,16 +1,16 @@
 window.onload = () =>{
     let numero = Number(prompt('Digite um número:'));
     let resultado = fib(numero);
-    console.log(`O resultado é: ${resultado} - laço comum`);
+    alert(`O resultado é: ${resultado} - laço comum`);
 
     let numeroR = Number(prompt('Digite um número:'));
     let resultadoR = fibR(numeroR);
-    console.log(`O resultado é: ${resultadoR} - recursividade`);
+    alert(`O resultado é: ${resultadoR} - recursividade`);
 }
 
 function fib(numero){
 
-    let numAnterior = 0;
+    let numAnterior = 1;
     let numAtual = 1;
     let resultado;
 
@@ -25,8 +25,8 @@ function fib(numero){
 }
 
 function fibR(numero){
-    if(numero == 1) return 1
-        return (fibR(numero - 1) + fibR(numero - 2))
+    if(numero <= 1) return 1;
+    return (fibR(numero - 1) + fibR(numero - 2));
 }
 
 
